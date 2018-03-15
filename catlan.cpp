@@ -30,6 +30,8 @@ void catlan(vector<vector<int>>& res, vector<int> tmp, stack<int>& in, stack<int
 			tmp.push_back(t);
 			in.pop();
 			catlan(res, tmp, in, stk);
+			tmp.pop_back();
+			in.push(t);
 		}
 	}
 }
