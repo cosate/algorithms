@@ -3,7 +3,7 @@
 #include<vector>
 using namespace std;
 
-void catlan(vector<vector<int>>& res, vector<int>& tmp, stack<int>& in, stack<int>& stk)
+void catlan(vector<vector<int>>& res, vector<int> tmp, stack<int>& in, stack<int>& stk)
 {
 	if(stk.empty())
 	{
